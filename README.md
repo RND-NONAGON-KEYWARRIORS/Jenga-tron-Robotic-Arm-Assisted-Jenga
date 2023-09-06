@@ -11,5 +11,8 @@ This project aims at designing and constructing a versatile robotic arm system w
 
 ![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/ada9d976-1e4a-4d79-af16-002209c37ad7)
 
+<b>HARDWARE SCHEMATICS</b>
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/134179620/81526321-6311-4a5a-85ac-40c34003bf18)
+
 
 
