@@ -38,8 +38,8 @@ This project aims at designing and constructing a versatile robotic arm system w
 
 <b>Step 2. Define Constants:</b><br>
 
-*Define constants for Blynk authentication token and Wi-Fi credentials.
-*Define pin numbers for the servos.
+*Define constants for Blynk authentication token and Wi-Fi credentials.<br>
+*Define pin numbers for the servos.<br>
 
 
 <b>Step 3. Initialize Objects and Variables:</b><br>
