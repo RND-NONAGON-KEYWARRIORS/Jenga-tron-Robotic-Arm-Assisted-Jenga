@@ -107,3 +107,34 @@ This project aims at designing and constructing a versatile robotic arm system w
 
 
 <b>A. ACTUAL RESULTS</b><br>
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/75fff169-ef76-4730-a903-11e154b3f10c)
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/3051d9dd-7465-4212-b8a5-97783ae93329)
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/faf01726-c4f6-479f-ab08-7f59368a96f3)
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/407da56e-248d-449f-9fcf-176968ae778b)
+
+<b>B. USING BLYNK APP</b><br>
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/1e672c0a-8247-4487-b494-f040ae8f6dee)
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/286b4d18-0316-4c8b-8045-2e77c8d41eab)
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/b993b76e-6d58-4dee-8a7e-a1dab85f1815)
+
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/143982031/1e359dec-4cb3-42db-8f6d-4b75ff250752)
+
+<b>RECOMMENDATIONS</b><br>
+*Plan and prototype thoroughly. This will help identify design flaws and potential challenges early on.
+*Use real components early in the testing process. This will give a better understanding of the project's limitations and requirements.<br>
+*Invest in high-quality servo motors. This will minimize the chances of malfunctions.<br>
+*Ensure all connections are secure. Use appropriate connectors to avoid intermittent issues with the wires.<br>
+*Perform code reviews and optimizations. This will identify and eliminate any potential bugs and inefficiencies.<br>
+*Develop a realistic project timeline and adhere to it strictly. This will allow for better allocation of resources and time to address any unforeseen challenges.<br>
+*Have backup components readily available. This will prevent delays caused by waiting for replacements.<br>
+*Regularly test the robot arm and seek feedback from peers or mentors. This will help identify blind spots and suggest potential improvements.<br>
+*Keep detailed records of the project's progress. This will facilitate troubleshooting and future improvements.<br>
+*Conduct a thorough evaluation of the entire process. This will help identify what worked well, what could be improved, and what lessons were learned.<br>
+
