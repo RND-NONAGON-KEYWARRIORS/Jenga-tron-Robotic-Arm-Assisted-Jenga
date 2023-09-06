@@ -34,7 +34,7 @@ This project aims at designing and constructing a versatile robotic arm system w
 
 <b>PSEUDO-CODE</b><br> 
 	<b>Step 1. Import Libraries:</b><br>
-<bullet>Import essential libraries for the color sensor, Wi-Fi module, and Blynk
+*Import essential libraries for the color sensor, Wi-Fi module, and Blynk
 
 <b>Step 2. Define Constants:</b><br>
 
@@ -44,46 +44,47 @@ This project aims at designing and constructing a versatile robotic arm system w
 
 <b>Step 3. Initialize Objects and Variables:</b><br>
 
-<bullet>Initialize the driver library for  color sensor (Adafruit_TCS34725).
-<bullet>Create the five servo motor objects (servo1, servo2, servo3, servo4, servo5).
-<bullet>Set pin values for LED Lights(redled1, greenled1,  blueled1) as integers
-<bullet>Set pin values for Robot Arm Servos (base, firstservo, secondservo, end effector, platform) as integers
-<bullet>Initialize color values(redval, greenval,  blueval) as integers and set all to 0
-<bullet>Initialize variables (rotate, maxstacknotif, start, revolute, slightmove) as integers and set all  to 0
-<bullet>Initialize placeangle as integer
-<bullet>Initialize checkpoints (redcheckpoint,greencheckpoints, bluecheckpoints) as integers and set all to 1
+*Initialize the driver library for  color sensor (Adafruit_TCS34725).<br>
+*Create the five servo motor objects (servo1, servo2, servo3, servo4, servo5).<br>
+*Set pin values for LED Lights(redled1, greenled1,  blueled1) as integers<br>
+*Set pin values for Robot Arm Servos (base, firstservo, secondservo, end effector, platform) as integers<br>
+*Initialize color values(redval, greenval,  blueval) as integers and set all to 0<br>
+*Initialize variables (rotate, maxstacknotif, start, revolute, slightmove) as integers and set all  to 0<br>
+*Initialize placeangle as integer<br>
+*Initialize checkpoints (redcheckpoint,greencheckpoints, bluecheckpoints) as integers and set all to 1<br>
 
 <b>Step 4. Setup Function:</b><br>
 
-<bullet>Initialize the color sensor integration time and gain.
-<bullet>Initialize the Blynk authentication token with Wi-Fi credentials
-<bullet>Connect to the Wi-Fi network and start Blynk (Blynk.begin).
-<bullet>Attach the servos to their respective pins (servo1.attach, servo2.attach, servo3.attach, servo4.attach, servo5.attach).
-<bullet>Set pinMode for LEds(redled1, greenled1, blueled1) as OUTPUT
-<bullet>Set the LEDs to HIGH to turn off LEDs.
+*Initialize the color sensor integration time and gain.<br>
+*Initialize the Blynk authentication token with Wi-Fi credentials<br>
+*Connect to the Wi-Fi network and start Blynk (Blynk.begin).<br>
+*Attach the servos to their respective pins (servo1.attach, servo2.attach, servo3.attach, servo4.attach, servo5.attach).<br>
+*Set pinMode for LEds(redled1, greenled1, blueled1) as OUTPUT<br>
+*Set the LEDs to HIGH to turn off LEDs.<br>
 
 <b>Step 5. Increment Function:</b><br>
 
-<bullet>Control the rotation of servo5 (platform) for slight and big movements by:
-<bullet>Performing a function(smallmoveincrement)  to increment the servo position for slight movements 
-<bullet>Performing a function(bigmoveincrement) to increment the servo position for big movements
-<bullet>Performing a function(bigrotatefirst) to rotate the servo slightly to a specific angle
-<bullet>Performing a function(biggggrotatefirst) to rotate the servo to a considerable  specific amount of angle.
-<bullet>Define and get the parameter  from the virtual  buttons (V4, V5, V6) for red, blue, and green respectively of the Blynk app or website.
+*Control the rotation of servo5 (platform) for slight and big movements by:<br>
+>*Performing a function(smallmoveincrement)  to increment the servo position for slight movements 
+*Performing a function(bigmoveincrement) to increment the servo position for big movements<br>
+*Performing a function(bigrotatefirst) to rotate the servo slightly to a specific angle<br>
+*Performing a function(biggggrotatefirst) to rotate the servo to a considerable  specific amount of angle.<br>
+>
+*Define and get the parameter  from the virtual  buttons (V4, V5, V6) for red, blue, and green respectively of the Blynk app or website.<br>
 
 <b>Step 6. Drop angle  Function:</b><br>
 
-<bullet>Initialize  increments for the placeangle of servo2 and servo4 based on their value
-<bullet>Initialize default position function to set servo1 to 90 degrees, servo2 to 10 degrees, servo3 to 0 degrees, and servo4 to 0 degrees.
+*Initialize  increments for the placeangle of servo2 and servo4 based on their value<br>
+*Initialize default position function to set servo1 to 90 degrees, servo2 to 10 degrees, servo3 to 0 degrees, and servo4 to 0 degrees.<br>
 
 <b>Step 7.  Loop Function:</b><br>
 
-<bullet>Call Blynk.run() to handle Blynk-related tasks.
-<bullet>Get the RGB values from the color sensor and check for the dominant color (red, green, or blue).
-<bullet>Increment the respective color counter (redval, greenval, blueval) based on the dominant color detected.
-<bullet>If a specific number of color button presses, for instance (redval == 1) is reached, perform a series of actions based on the checkpoint for that color (redcheckpoint, greencheckpoint, bluecheckpoint). This includes moving the robotic arm to specific positions, rotating servos, and adjusting angles before placing the object.
-<bullet>Check if the maximum stack notification is reached:
-<bullet>If the maximum stack notification (maxstacknotif >= 5) is reached, flash the LEDs as an alert.
+*Call Blynk.run() to handle Blynk-related tasks.<br>
+*Get the RGB values from the color sensor and check for the dominant color (red, green, or blue).<br>
+*Increment the respective color counter (redval, greenval, blueval) based on the dominant color detected.<br>
+*If a specific number of color button presses, for instance (redval == 1) is reached, perform a series of actions based on the checkpoint for that color (redcheckpoint, greencheckpoint, bluecheckpoint). This includes moving the robotic arm to specific positions, rotating servos, and adjusting angles before placing the object.<br>
+*Check if the maximum stack notification is reached:<br>
+>*If the maximum stack notification (maxstacknotif >= 5) is reached, flash the LEDs as an alert.<br>
 
 <b>Step 8. End:</b><br>
 
@@ -98,4 +99,11 @@ This project aims at designing and constructing a versatile robotic arm system w
 
 ![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/134179620/196d2c5d-7149-45d6-a41d-9e595ed19892)
 
+<b>SIMULATION/TESTING</b><br>
+<b>A. SIMULATION RESULTS (Simulation link -https://wokwi.com/projects/370297394449006593)</b><br>
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/134179620/d1a20348-7f23-4e1a-8e76-00d401426ced)
+![image](https://github.com/RND-NONAGON-KEYWARRIORS/Jenga-tron-Robotic-Arm-Assisted-Jenga/assets/134179620/5103bb7c-1f3f-4042-bb0f-6cdad62ec30f)
 
+
+
+<b>A. ACTUAL RESULTS</b><br>
